@@ -1,0 +1,40 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+.container {
+  margin: auto auto;
+  padding: 10px;
+}
+.form {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 3px;
+}
+.input {
+  padding: 3px 5px;
+  border-radius: 3px;
+}
+.btn {
+  background-color: aqua;
+  color: black;
+  margin: 3px;
+  padding: 3px 10px;
+  border-radius: 5px;
+  text-align: center;
+}
+.delete-btn {
+  background-color: red;
+  color: black;
+  padding: 2px 8px;
+  border-radius: 5px;
+  text-align: center;
+}
+.list {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  padding-top: 10px;
+  margin: 2px;
+}
